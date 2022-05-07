@@ -10,10 +10,7 @@ const fetchUsers = () => {
           const users = response.data;
 
           console.log(`GET list users`, users);
-          let mainTemp = users.main.temp;
-          let name = users.name;
-          // Gets name, and temperature in kelvin
-            console.log(name, mainTemp);
+          
 
           
           
