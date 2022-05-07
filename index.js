@@ -47,7 +47,7 @@ const fetchWeather = (apiCity) => {
 
           let h3 = document.getElementById("h3Weather");
 
-          h3.innerHTML = info .current.temp_c + " Celsius";
+          h3.innerHTML = info .current.temp_c + " &deg;";
 
 
           let h4 = document.getElementById("h4Weather");
