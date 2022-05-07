@@ -12,6 +12,21 @@
 
 let weatherButton = document.getElementById("weatherButton");
 
+let input = document.getElementById("weatherText");
+
+
+// adds listener for enter
+input.addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+
+    let apiCity = document.getElementById("weatherText").value;
+    // Cancel the default action, if needed
+    event.preventDefault();
+    // Trigger the button element with a click
+    fetchWeather(apiCity);
+  }
+});
+
 
 weatherButton.addEventListener("click", () =>
 {
