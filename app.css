@@ -10,9 +10,20 @@ h1
 
 h3
 {
-    margin-top: 15%;
+    margin-top: 3%;
     margin-left: 20%;
-    color: #EB5353;
+    color: #FF6363;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h4
+{
+    
+    margin-left: 20%;
+    color: #FF6363;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -56,7 +67,7 @@ body
 
 
 button {
-    background-color: gray;
+    background-color: #FF6363;
     border: 4px;
     color: white;
     padding: 15px 15px 15px 15px;
